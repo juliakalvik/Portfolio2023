@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #525252;
+}
+
+.hero-img img {
+  display: flex;
+  width: 500px;
+}
+
+.hero-flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.hero-content {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+}
+
+.hero-text {
+  line-height: 8px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+}
+
+#hero-name {
+  font-size: 60px;
+  font-weight: 600;
+  margin-top: 35px;
+  margin-bottom: 40px;
+}
+
+#hero-fed {
+  font-size: 30px;
+  font-weight: 600;
+  color: #7e896c;
+}
+
+span {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.scroll-to-projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10vh;
+}
+
+.double-arrow {
+  width: 20px;
+}
+
+.photog-fed {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-oslo {
+  text-align: right;
+}
