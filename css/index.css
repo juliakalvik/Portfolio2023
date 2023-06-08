@@ -110,9 +110,11 @@ span {
   border-radius: 50%;
   border-style: outset;
   border-color: #fff;
+  object-fit: cover;
 }
 
-h2 {
+h2,
+h3 {
   color: #fff;
 }
 
@@ -125,8 +127,45 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  padding: 80px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 
-.photography-text p {
+.photography h1 {
+  font-size: 45px;
+}
+
+.photography-text {
+  background-image: linear-gradient(to right, #7e896c, #2e3227);
+  padding: 50px;
+  border-radius: 20px;
+  width: fit-content;
+}
+
+.contact-text h3 {
   color: #525252;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  margin-right: 10vw;
+}
+
+.socials-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.socials-buttons img {
+  width: 50px;
+}
+
+#web {
+  width: 40px;
+  height: 40px;
 }
