@@ -5,6 +5,7 @@ a {
   cursor: pointer;
   color: inherit;
   color: #525252;
+  transition: 0.3s ease-in-out;
 }
 
 a:hover {
@@ -15,6 +16,7 @@ a:hover {
   font-size: 48px;
   color: #7e896c;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .logo:hover {
