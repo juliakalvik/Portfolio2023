@@ -19,3 +19,13 @@ button:hover {
   background-color: #2e3227;
   color: #fff;
 }
+
+.socials-buttons button:hover {
+  background-color: #08243e70;
+}
+
+@media screen and (max-width: 400px) {
+  .pro-button button {
+    width: 300px;
+  }
+}
