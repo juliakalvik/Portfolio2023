@@ -84,6 +84,27 @@ h1 {
   gap: 5px;
 }
 
+h1,
+button {
+  color: #7e896c;
+}
+
+button:hover {
+  background-color: #7e896c;
+}
+
+.logo {
+  color: #7e896c;
+}
+
+#contact {
+  color: #7e896c;
+}
+
+.nav-link:hover {
+  color: #7e896c;
+}
+
 @media screen and (max-width: 1180px) {
   #line {
     display: none;

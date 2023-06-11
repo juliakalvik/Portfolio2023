@@ -241,6 +241,10 @@ i {
   cursor: pointer;
 }
 
+.animate__animated.animate__fadeInRight {
+  --animate-duration: 2s;
+}
+
 @media screen and (max-width: 589px) {
   span.hero-oslo {
     text-align: left;
@@ -253,7 +257,7 @@ i {
   #hero-name {
     font-size: 48px;
   }
-  span.left {
+  span.animate__animated.animate__fadeInRight {
     display: flex;
     justify-content: center;
     align-items: center;
