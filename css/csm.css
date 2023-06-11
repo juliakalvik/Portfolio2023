@@ -1,4 +1,5 @@
-h1 {
+h1,
+button {
   color: #ff6c3b;
 }
 
@@ -6,6 +7,14 @@ button:hover {
   background-color: #ff6c3b;
 }
 
-button {
+.logo {
+  color: #ff6c3b;
+}
+
+#contact {
+  color: #ff6c3b;
+}
+
+.nav-link:hover {
   color: #ff6c3b;
 }
